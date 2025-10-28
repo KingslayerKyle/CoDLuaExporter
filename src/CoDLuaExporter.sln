@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoDLuaExporter", "CoDLuaExporter\CoDLuaExporter.csproj", "{F9D17929-E876-45DB-A6CE-A135D980E8B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhilLibX", "Projects\PhilLibX\PhilLibX\PhilLibX.csproj", "{0F468D5B-2F30-42F5-9043-920040D83D9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9D17929-E876-45DB-A6CE-A135D980E8B8}.Debug|x64.ActiveCfg = Debug|x64
+		{F9D17929-E876-45DB-A6CE-A135D980E8B8}.Debug|x64.Build.0 = Debug|x64
+		{F9D17929-E876-45DB-A6CE-A135D980E8B8}.Release|x64.ActiveCfg = Release|x64
+		{F9D17929-E876-45DB-A6CE-A135D980E8B8}.Release|x64.Build.0 = Release|x64
+		{0F468D5B-2F30-42F5-9043-920040D83D9D}.Debug|x64.ActiveCfg = Debug|x64
+		{0F468D5B-2F30-42F5-9043-920040D83D9D}.Debug|x64.Build.0 = Debug|x64
+		{0F468D5B-2F30-42F5-9043-920040D83D9D}.Release|x64.ActiveCfg = Release|x64
+		{0F468D5B-2F30-42F5-9043-920040D83D9D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ABA6701-5A06-40DE-93D1-34AC1DF665E8}
+	EndGlobalSection
+EndGlobal
