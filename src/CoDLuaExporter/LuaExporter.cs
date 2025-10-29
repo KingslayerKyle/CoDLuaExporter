@@ -45,7 +45,7 @@ namespace CoDLuaExporter
                 string Name = MemoryUtil.ReadNullTerminatedString( process.Handle, luaFile.NamePointer );
 
                 // Skip other raw files for Black Ops 3
-                if( gameName == "Black Ops 3" && Path.GetExtension( Name ) != ".lua" )
+                if( gameName == "Black Ops 3" || gameName == "Black Ops 2" && Path.GetExtension( Name ) != ".lua")
                 {
                     continue;
                 }

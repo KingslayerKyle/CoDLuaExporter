@@ -144,6 +144,13 @@ namespace CoDLuaExporter
                 typeof( LuaFileOld ),
                 typeof( FontFileOld )
             ),
+            ["BLACKOP2"] = new GameDefinition(
+                "Black Ops 2",
+                41,
+                -1,     // font idx = 20
+                typeof( LuaFileOld ),
+                typeof( FontFileOld )
+            ),
             ["INFIWARF"] = new GameDefinition(
                 "Infinite Warfare",
                 59,
